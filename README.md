@@ -64,7 +64,7 @@ curl http://localhost:8000/students
 
 ```bash
 # SSH into your EC2 instance
-ssh -i your-key.pem ubuntu@YOUR_EC2_IP
+ssh -i devops-project.pem ubuntu@54.84.181.56
 
 # Install Docker
 sudo apt update && sudo apt install -y docker.io docker-compose-plugin
