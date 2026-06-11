@@ -36,7 +36,7 @@ def get_db():
 # ── Endpoints ─────────────────────────────────────────────
 @app.get("/health")
 def health(db: Session = Depends(get_db)):
-    """Health check — also verifies DB connection."""
+    """Health check — confirms the app is up and database is reachable."""
     try:
         db.execute(database.text("SELECT 1"))
         db_status = "connected"
