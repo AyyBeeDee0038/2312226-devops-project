@@ -1,6 +1,6 @@
 # BSCS-2022-001 — DevOps Final Project
 
-> **Student:** BSCS-2022-001
+> **Student:** 2312226
 > **Course:** DevOps Fundamentals
 > **Live URL:** http://YOUR_EC2_IP:8000
 
@@ -32,8 +32,8 @@ GitHub Push
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/BSCS-2022-001-devops-project
-cd BSCS-2022-001-devops-project
+git clone https://github.com/AyyBeeDee0038/2312226-devops-project
+cd 2312226-devops-project
 
 # 2. Create your .env file
 cp .env.example .env
@@ -64,14 +64,14 @@ curl http://localhost:8000/students
 
 ```bash
 # SSH into your EC2 instance
-ssh -i your-key.pem ubuntu@YOUR_EC2_IP
+ssh -i devops-project.pem ubuntu@54.84.181.56
 
 # Install Docker
 sudo apt update && sudo apt install -y docker.io docker-compose-plugin
 sudo usermod -aG docker ubuntu
 
 # Clone and run
-git clone https://github.com/YOUR_USERNAME/BSCS-2022-001-devops-project ~/devops-project
+git clone https://github.com/AyyBeeDee/2312226-devops-project ~/devops-project
 cd ~/devops-project
 cp .env.example .env   # Edit with production values
 docker compose -f docker-compose.prod.yml up -d --build
