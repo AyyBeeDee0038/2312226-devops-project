@@ -71,7 +71,7 @@ sudo apt update && sudo apt install -y docker.io docker-compose-plugin
 sudo usermod -aG docker ubuntu
 
 # Clone and run
-git clone https://github.com/AyyBeeDee/2312226-devops-project ~/devops-project
+git clone https://github.com/AyyBeeDee0038/2312226-devops-project ~/devops-project
 cd ~/devops-project
 cp .env.example .env   # Edit with production values
 docker compose -f docker-compose.prod.yml up -d --build
