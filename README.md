@@ -32,8 +32,8 @@ GitHub Push
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/BSCS-2022-001-devops-project
-cd BSCS-2022-001-devops-project
+git clone https://github.com/AyyBeeDee0038/2312226-devops-project
+cd 2312226-devops-project
 
 # 2. Create your .env file
 cp .env.example .env
@@ -71,7 +71,7 @@ sudo apt update && sudo apt install -y docker.io docker-compose-plugin
 sudo usermod -aG docker ubuntu
 
 # Clone and run
-git clone https://github.com/YOUR_USERNAME/BSCS-2022-001-devops-project ~/devops-project
+git clone https://github.com/AyyBeeDee/2312226-devops-project ~/devops-project
 cd ~/devops-project
 cp .env.example .env   # Edit with production values
 docker compose -f docker-compose.prod.yml up -d --build
