@@ -1,6 +1,6 @@
 # 2312226 — DevOps Final Project
 
-> **Student:** 2312226
+> **Student:** Abdallah Kazi 2312226
 > **Course:** DevOps Fundamentals
 > **Live URL:** http://54.84.181.56:8000
 
